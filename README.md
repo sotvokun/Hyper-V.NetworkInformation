@@ -10,3 +10,14 @@ Usage
 2. Please make sure you are in Hyper-V administrator user group.
 3. [Install the module](https://docs.microsoft.com/en-us/powershell/developer/module/installing-a-powershell-module).
 4. [Import](https://docs.microsoft.com/en-us/powershell/developer/module/importing-a-powershell-module) this module and enjoy it.
+
+Example
+
+```
+C:\ Get-VMNetworkInformation
+
+Name   IP             MACAddress
+----   --             ----------
+Alpine 172.17.118.196 00-36-36-36-36-36
+
+```
